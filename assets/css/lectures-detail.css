@@ -1,0 +1,245 @@
+/* lectures-detail.html */
+
+main {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 20px auto;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.title_review {
+  font-size: 1rem;
+  color: #777;
+}
+
+.apply {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  background: #f4f4f4;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.apply img {
+  width: 150px;
+  height: auto;
+  margin-right: 1rem;
+  border-radius: 8px;
+}
+
+.apply button {
+  background: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+  margin-bottom: 0.5rem;
+}
+
+.apply button:hover {
+  background: #0056b3;
+}
+
+.detail_main {
+  padding: 2rem;
+  background: #fafafa;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.curriculumBox {
+  margin-bottom: 2rem;
+}
+
+.video_list h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.video_list ul {
+  list-style: none;
+  
+  padding: 0;
+}
+
+.video_list li {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.video_list li img {
+  width: 24px;
+  height: 24px;
+  margin-right: 1rem;
+}
+
+.video_list li span {
+
+  color: #007BFF;
+  font-weight: bold;
+  /* gap: 1rem; */
+}
+.video_list li span:nth-child(2){
+  flex: 4 4 auto;
+
+  /* background-color: aliceblue; */
+  text-align: left;
+  color:black;
+}
+.video_list li span:nth-child(3){
+  margin: 0 20px;
+  /* flex: 1 1 auto; */
+}
+
+
+.reviewBox {
+  margin-bottom: 2rem;
+}
+
+
+
+
+
+
+/* star Box */
+
+
+.rating-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+.average-rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.rating-value {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.stars {
+  color: gold;
+  font-size: 1.5rem;
+}
+
+.ratings-count {
+  margin-left: auto;
+  color: #777;
+}
+
+.ratings-breakdown {
+  width: 100%;
+}
+
+.rating-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.rating-bar span {
+  width: 50px;
+}
+
+.bar {
+  flex-grow: 1;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 0 10px;
+}
+
+.fill {
+  background-color: #4caf50;
+  height: 10px;
+  text-align: center;
+  color: white;
+  line-height: 24px; /* This should match the height of the bar */
+}
+
+.count {
+  width: 30px;
+  text-align: right;
+}
+
+/* reviews */
+
+
+.review-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+.review {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 20px 0;
+}
+
+.review:last-child {
+  border-bottom: none;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.user-icon {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.stars {
+  color: gold;
+}
+
+.review-body {
+  margin-left: 3rem;
+  line-height: 1.4;
+}
+

@@ -1,0 +1,52 @@
+:root {
+    --main-bg-color1: rgb(10, 15, 39);
+    --main-bg-color2: rgb(26, 29, 39);
+    --main-bg-color3: pink;
+    --main-bg-color4: pink;
+    --main-black1: pink;
+    --main-black2: pink;
+    --main-white1: pink;
+    --main-white2: pink;
+    --main-font-color1:rgb(255, 246, 248);
+    --main-font-color2:pink;
+    --main-font-color3:pink;
+    --main-font-color4:pink;
+
+  }
+  
+.article{
+    background-color: aliceblue;
+    
+    width:60%;
+    
+    margin : 40px auto;
+    
+}
+
+/* main.css */
+
+
+
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* header footer */
+header-component, footer-component {
+  display: block;
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+a, u {
+  text-decoration: none;
+}
+header-component, footer-component{
+  color: white!important;
+
+}
