@@ -37,19 +37,19 @@ export let courses = [
         type: "website",
     },
     {
-        url: "https://www.danhanacare.com.au/",
+        url: "/lectures-detail.html",
         client: "Client : DanhanaCare",
         date: "Date : 2023.04.16",
         type: "website",
     },
     {
-        url: "https://www.ktyconstruction.com/",
+        url: "/lectures-detail.html",
         client: "KtyConstruction",
         date: "2023.05.08",
         type: "website",
     },
     {
-        url: "https://vwp-web.vercel.app/",
+        url: "/lectures-detail.html",
         client: "VWP",
         date: "2023.06.17",
         type: "website",
